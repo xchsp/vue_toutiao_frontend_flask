@@ -86,8 +86,8 @@ export default {
           keyword: this.searchStr
         }
       }).then(res => {
-        const { data } = res.data
-        this.resultList = data
+        // const { data } = res.data
+        this.resultList = res.data
         if (this.historyList.indexOf(this.searchStr) < 0) {
           this.historyList.push(this.searchStr)
         }
