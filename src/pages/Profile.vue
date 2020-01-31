@@ -7,9 +7,9 @@
         <div>
           <span class="iconfont iconxingbienan" v-if="profile.gender ==1"></span>
           <span class="iconfont iconxingbienv" v-else></span>
-          {{profile.nickname}}
+          {{profile.username}}
         </div>
-        <div class="time">2019-10-10</div>
+        <div class="time">{{profile.created}}</div>
       </div>
       <span class="iconfont iconjiantou1"></span>
     </div>
@@ -39,10 +39,11 @@ export default {
   methods: {
     getData() {
       this.$axios({
-        url: '/user/' + localStorage.getItem('user_id'),
+        url: '/me',
         method: 'GET'
       }).then(res => {
-        this.profile = res.data.data
+        console.log(res.data)
+        this.profile = res.data
         if (!this.profile.head_img) {
           // this.profile.head_img = '/static/imgs/default.png'
           this.profile.head_img =
@@ -69,7 +70,8 @@ export default {
 }
 .avatar {
   margin-left: 5.556vw;
-  width: 19.444vw;
+  width: 70 / 360 * 100vw;
+  height: 70 / 360 * 100vw;
   border-radius: 50%;
 }
 .profile-middle {

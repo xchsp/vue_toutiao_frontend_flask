@@ -5,7 +5,7 @@
       <img :src="item.head_img" alt class="avatar" />
       <div class="itemMiddle">
         <div class="name">{{item.nickname}}</div>
-        <div class="time">2019-10-10</div>
+        <div class="time">{{item.created}}</div>
       </div>
       <div @click="cancelFllow(item.id)" class="btnCancel">取消关注</div>
     </div>
