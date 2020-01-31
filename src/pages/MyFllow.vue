@@ -26,7 +26,7 @@ export default {
   methods: {
     getData() {
       this.$axios({
-        url: '/user_follows/',
+        url: '/user_follows',
         method: 'GET'
       }).then(res => {
         this.fllowList = res.data.data
@@ -42,7 +42,7 @@ export default {
     },
     cancelFllow(id) {
       this.$axios({
-        url: '/user_unfollow/' + id,
+        url: '/user_follow/' + id,
         method: 'GET'
       }).then(res => {
         console.log(res)

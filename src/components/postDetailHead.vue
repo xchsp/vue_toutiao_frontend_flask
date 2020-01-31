@@ -15,24 +15,24 @@ export default {
   methods: {
     follow() {
       this.$axios({
-        url: '/user_follows/' + this.post.user.id,
+        url: '/user_follow/' + this.post.user.id,
         method: 'GET'
       }).then(res => {
         console.log(res)
-        const { message } = res.data
-        if (message == '关注成功') {
+        // const { message } = res.data
+        if (res.data == '关注成功') {
           this.post.has_follow = true
         }
       })
     },
     unfollow() {
       this.$axios({
-        url: '/user_unfollow/' + this.post.user.id,
+        url: '/user_follow/' + this.post.user.id,
         method: 'GET'
       }).then(res => {
         console.log(res)
-        const { message } = res.data
-        if (message == '取消关注成功') {
+        // const { message } = res.data
+        if (res.data == '取消关注成功') {
           this.post.has_follow = false
         }
       })
