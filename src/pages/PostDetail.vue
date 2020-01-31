@@ -83,15 +83,15 @@ export default {
         url: '/post_like/' + this.post.id,
         method: 'get'
       }).then(res => {
-        const { message } = res.data
-        if (message == '点赞成功') {
+        // const { message } = res.data
+        if (res.data == '点赞成功') {
           this.post.has_like = true
           this.post.like_length += 1
-        } else if (message == '取消成功') {
+        } else if (res.data == '取消成功') {
           this.post.has_like = false
           this.post.like_length -= 1
         }
-        console.log(message)
+        console.log(res.data)
       })
     },
     toMoreComments() {

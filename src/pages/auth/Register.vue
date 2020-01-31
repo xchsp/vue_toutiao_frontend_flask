@@ -15,9 +15,9 @@
         type="text"
       ></authInput>
     </div>
-    <div class="inputNickName">
+    <div class="inputemail">
       <authInput
-        @input="setNickName"
+        @input="setemail"
         err_message="请输入正确的昵称"
         placeholder="昵称"
         rule="^\w{5,10}$"
@@ -47,7 +47,7 @@ export default {
     return {
       username: '',
       password: '',
-      nickname: ''
+      email: ''
     }
   },
   components: {
@@ -58,8 +58,8 @@ export default {
     setUserName(name) {
       this.username = name
     },
-    setNickName(name) {
-      this.nickname = name
+    setemail(name) {
+      this.email = name
     },
     setPassword(password) {
       this.password = password
@@ -70,7 +70,7 @@ export default {
         method: 'POST',
         data: {
           username: this.username,
-          email: this.nickname,
+          email: this.email,
           password: this.password
         }
       }).then(res => {
