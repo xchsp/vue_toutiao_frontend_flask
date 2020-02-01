@@ -23,6 +23,9 @@ export default {
         if (res.data == '关注成功') {
           this.post.has_follow = true
         }
+        else if (res.data == '不能关注自己') {
+          this.$toast.fail(res.data)
+        }
       })
     },
     unfollow() {
