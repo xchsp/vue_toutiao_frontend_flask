@@ -54,23 +54,23 @@ export default {
 <style lang="less" scoped>
 .singleCover {
   display: flex;
-  padding: 5.556vw;
+  padding: 20/@vv;
   border-bottom: 1px solid #eee;
   .left {
     width: 66%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 0 2.778vw 0 0;
+    padding: 0 8/@vv 0 0;
     .info {
-      margin-top: 5.556vw;
+      margin-top: 20/@vv;
       color: #888;
       font-size: 14px;
     }
   }
   .right {
     width: 34%;
-    height: 20.556vw;
+    height: 74/@vv;
     overflow: hidden;
     img {
       width: 100%;
@@ -80,15 +80,15 @@ export default {
   }
 }
 .multipCover {
-  padding: 5.556vw;
+  padding: 20/@vv;
   border-bottom: 1px solid #eee;
   .cover {
     display: flex;
     justify-content: space-between;
-    margin-top: 2.778vw;
+    margin-top: 8/@vv;
     .imgWrapper {
       width: 32%;
-      height: 20.556vw;
+      height: 74/@vv;
       overflow: hidden;
       img {
         width: 100%;
@@ -98,8 +98,8 @@ export default {
     }
   }
   img {
-    width: 31.111vw;
-    height: 20.556vw;
+    width: 112/@vv;
+    height: 74/@vv;
   }
 }
 </style>

@@ -15,14 +15,14 @@ export default {
 .header {
   display: flex;
   justify-content: space-between;
-  height: 13.889vw;
-  line-height: 13.889vw;
+  height: 50/@vv;
+  line-height: 50/@vv;
 }
 .iconjiantou2 {
-  padding: 0 2.778vw;
+  padding: 0 10/@vv;
 }
 .title {
-  padding-right: 11.111vw;
+  padding-right: 40/@vv;
   flex: 1;
   text-align: center;
   font-weight: bold;

@@ -65,26 +65,26 @@ export default {
 .profile {
   display: flex;
   align-items: center;
-  padding: 11.111vw 0;
-  border-bottom: 1.389vw solid #eee;
+  padding: 40/@vv 0;
+  border-bottom: 5/@vv solid #eee;
 }
 .avatar {
-  margin-left: 5.556vw;
-  width: 70 / 360 * 100vw;
-  height: 70 / 360 * 100vw;
+  margin-left: 20/@vv;
+  width: 70/@vv;
+  height: 70/@vv;
   border-radius: 50%;
 }
 .profile-middle {
   flex: 1;
-  padding: 0 5.556vw;
-  font-size: 3.889vw;
+  padding: 0 20/@vv;
+  font-size: 14/@vv;
 }
 .iconxingbienan {
-  margin: 0 1.111vw;
+  margin: 0 4/@vv;
   color: skyblue;
 }
 .time {
-  margin-top: 1.111vw;
-  font-size: 3.889vw;
+  margin-top: 4/@vv;
+  font-size: 14/@vv;
 }
 </style>

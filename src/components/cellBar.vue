@@ -23,13 +23,13 @@ export default {
 
 <style lang="less" scoped>
 .container {
-  padding-left: 5.556vw;
+  padding-left: 20/@vv;
 }
 .user {
   display: flex;
   justify-content: space-between;
-  height: 16.667vw;
-  line-height: 16.667vw;
+  height: 60/@vv;
+  line-height: 60/@vv;
   border-bottom: 1px solid #eee;
 }
 </style>

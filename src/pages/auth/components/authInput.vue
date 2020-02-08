@@ -43,9 +43,9 @@ export default {
 
 <style lang="less" scoped>
 .input {
-  margin-bottom: 5.556vw;
+  margin-bottom: 20/@vv;
   width: 100%;
-  height: 10.556vw;
+  height: 38/@vv;
   padding: 20px;
   box-sizing: border-box;
   background-color: #fff;

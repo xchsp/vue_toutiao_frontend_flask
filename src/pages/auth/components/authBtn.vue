@@ -15,12 +15,12 @@ export default {
 
 <style lang="less" scoped>
 .btn {
-  width: 69.444vw;
-  height: 13.333vw;
-  line-height: 13.333vw;
+  width: 250/@vv;
+  height: 48/@vv;
+  line-height: 48/@vv;
   color: #fff;
   background-color: #cc3300;
-  border-radius: 6.667vw;
+  border-radius: 24/@vv;
   text-align: center;
 }
 </style>

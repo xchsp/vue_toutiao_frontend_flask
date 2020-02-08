@@ -18,17 +18,17 @@ export default {}
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 2.778vw;
-  height: 13.611vw;
+  padding: 0 10/@vv;
+  height: 49/@vv;
   background-color: #ff0000;
   color: #fff;
 }
 .search {
-  width: 58.333vw;
-  height: 9.444vw;
-  line-height: 9.444vw;
+  width: 210/@vv;
+  height: 34/@vv;
+  line-height: 34/@vv;
   text-align: center;
-  border-radius: 4.722vw;
+  border-radius: 17/@vv;
   margin: 0 auto;
   background-color: rgba(242, 242, 242, 0.5);
 }

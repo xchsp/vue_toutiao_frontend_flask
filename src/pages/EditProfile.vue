@@ -126,14 +126,14 @@
 
     .avatar-img {
       display: block;
-      width: 100 / 360 * 100vw;
-      height: 100 / 360 * 100vw;
+      width: 100/@vv;
+      height: 100/@vv;
       border-radius: 50%;
     }
     // 修改元素的大小
     /deep/.van-uploader__upload {
-      width: 100 / 360 * 100vw;
-      height: 100 / 360 * 100vw;
+      width: 100/@vv;
+      height: 100/@vv;
     }
     /deep/.van-uploader {
       position: absolute;

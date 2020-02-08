@@ -88,11 +88,11 @@ export default {
 
 <style lang="less" scoped>
 .container {
-  padding: 5.556vw;
+  padding: 20/@vv;
 }
 .closeBtn {
   .iconfont {
-    font-size: 7.5vw;
+    font-size: 27/@vv;
   }
 }
 .logo {
@@ -100,7 +100,7 @@ export default {
   justify-content: center;
   .iconfont {
     color: #d81e06;
-    font-size: 35vw;
+    font-size: 126/@vv;
   }
 }
 .btn {

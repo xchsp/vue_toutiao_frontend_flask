@@ -42,7 +42,7 @@ export default {
 .floorWrapper {
   border: 1px solid #eee;
   background-color: #f3f3f3;
-  padding: 2.778vw;
+  padding: 10/@vv;
 }
 .meta {
   display: flex;
@@ -57,6 +57,6 @@ export default {
   }
 }
 .content {
-  margin-top: 2.778vw;
+  margin-top: 10/@vv;
 }
 </style>

@@ -45,23 +45,23 @@ export default {
 .item {
   display: flex;
   flex-direction: column;
-  padding: 4.444vw;
+  padding: 16/@vv;
   border-bottom: 1px solid #eee;
 }
 .date {
   color: #888;
-  padding: 2.778vw 0;
+  padding: 8/@vv 0;
 }
 .parent {
-  padding: 2.778vw;
+  padding: 8/@vv;
   background-color: #eee;
   .name {
-    padding-bottom: 2.778vw;
+    padding-bottom: 8/@vv;
   }
   .parentContent {
   }
 }
 .mainContent {
-  padding: 2.778vw 0;
+  padding: 8/@vv 0;
 }
 </style>

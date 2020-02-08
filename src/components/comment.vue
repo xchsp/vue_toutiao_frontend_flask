@@ -58,7 +58,7 @@ export default {
 </script>
 <style lang="less" scoped>
 .commentWraper {
-  padding: 2.778vw;
+  padding: 10/@vv;
   border-bottom: 1px solid #eee;
   .meta {
     display: flex;
@@ -66,14 +66,14 @@ export default {
     align-items: flex-start;
     margin-bottom: 10px;
     .avatar {
-      width: 9.722vw;
-      height: 9.722vw;
+      width: 35/@vv;
+      height: 35/@vv;
       border-radius: 50%;
       object-fit: cover;
     }
     .info {
       flex: 1;
-      padding-left: 2.778vw;
+      padding-left: 10/@vv;
       .time {
         font-size: 14px;
         color: #888;
@@ -84,14 +84,14 @@ export default {
       /*color: #888;*/
     /*}*/
     .avatar {
-      width: 13.889vw;
-      height: 13.889vw;
+      width: 50/@vv;
+      height: 50/@vv;
       border-radius: 50%;
       object-fit: cover;
     }
   }
   .content {
-    margin-top: 5.556vw;
+    margin-top: 20/@vv;
   }
 }
 </style>

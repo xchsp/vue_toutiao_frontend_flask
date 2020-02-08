@@ -46,7 +46,7 @@ export default {
 
 <style lang="less" scoped>
 .head {
-  padding: 0 2.778vw;
+  padding: 0 10/@vv;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -61,26 +61,26 @@ export default {
     }
   }
   .follow {
-    width: 16.111vw;
-    height: 2.222vw;
-    padding: 2.222vw 1.111vw;
-    line-height: 2.222vw;
+    width: 58/@vv;
+    height: 8/@vv;
+    padding: 8/@vv 4/@vv;
+    line-height: 8/@vv;
     text-align: center;
     font-size: 12px;
     background-color: #f00;
     color: #fff;
-    border-radius: 4.444vw;
+    border-radius: 16/@vv;
   }
   .alfollow {
-    width: 16.111vw;
-    height: 2.222vw;
-    padding: 2.222vw 1.111vw;
-    line-height: 2.222vw;
+    width: 58/@vv;
+    height: 8/@vv;
+    padding: 8/@vv 4/@vv;
+    line-height: 8/@vv;
     text-align: center;
     font-size: 12px;
     background-color: #eee;
     color: #888;
-    border-radius: 4.444vw;
+    border-radius: 16/@vv;
   }
 }
 </style>
